@@ -1,0 +1,15 @@
+# Site settings
+name: TextNut
+title: TextNut - A CommonMark editor for Mac
+author: Dapeng Ni @ Edgenius
+email: hello@textnutwriter.com
+description: > # this means to ignore newlines until "baseurl:"
+  TextNut is markdown editor for Mac. It is 100% compatible with CommonMark specification. There are two
+  editing mode to make you just concentrate your words without interference by markup characters. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.textnutwriter.com" # the base hostname & protocol for your site
+twitter_username: textnutwriter
+
+# Build settings
+markdown: kramdown
+copyright: Copyright © Edgenius 2015
