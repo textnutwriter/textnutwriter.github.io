@@ -4,10 +4,32 @@
   {% include head.html %}
 
   <body id="page-top" class="index">
+    <header class="index">
+      <nav class="navbar navbar-default navbar-fixed-top site-nav">
+        {% include nav.html %}
+      </nav>
+      <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Just concentrate on your words</div>
+            <div class="intro-subtitle">100% compatible with CommonMark</div>
+            
+             <div class="row">
+              
+                <div class="col-lg-offset-3 col-lg-3  col-md-offset-3 col-md-3 text-center">
+                    <a href="http://download.textnutwriter.com/TextNut-Trial.app.zip" class="page-scroll btn btn-xl-down">Get the FREE Trial</a>
+                <div class="compatible">Version 2.0 requires OSX 10.9+</div>
 
-    {% include header.html %}
+                </div>
+                <div class="col-lg-3 col-md-3 text-center">
+                    <a href="https://itunes.apple.com/us/app/textnut/id933104554?ls=1&mt=12" class="appstore"></a>
+                </div>
+              </div>
+              <div class="row"><br/></div>
+        </div>
+      </div>
+    </header>
 
-        {{ content }}
+    {{ content }}
 
     {% include footer.html %}
 

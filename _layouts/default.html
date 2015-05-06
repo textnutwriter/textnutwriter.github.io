@@ -4,9 +4,11 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
+    <header class="site-header">
+      <nav class="navbar navbar-default navbar-page navbar-fixed-top site-nav">
+        {% include nav.html %}
+      </nav>
+    </header>
     <div class="page-content">
       <div class="wrapper">
         {{ content }}

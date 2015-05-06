@@ -18,7 +18,7 @@ text-indent: -9999px;
 margin: 0 10px;
 
 }
-header {
+header.index {
       text-align: center;
       color: #fff;
       background-attachment: scroll;
@@ -894,3 +894,12 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #1baed7;
 }
+
+.navbar-page{
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
