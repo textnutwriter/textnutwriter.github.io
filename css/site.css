@@ -212,6 +212,9 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.site-header .navbar-brand {
+    padding:0;
+}
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -766,8 +769,10 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
+}
+footer ul.quicklinks a{
+    color: #1baed7;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
 }
 
 ul.social-buttons {
