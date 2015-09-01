@@ -20,7 +20,8 @@ margin: 0 10px;
 }
 header.index {
       text-align: center;
-      color: #5f4025;
+      color: #fff;
+      background-color: #5f4025;
       background-attachment: scroll;
       background-position: center center;
       background-repeat: none;
