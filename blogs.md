@@ -1,15 +1,12 @@
 ---
 layout: page
-title: Blogs
+title: TextNut Blogs
 permalink: /blogs/
 menu: main
 weight: 10
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Add external folders to TextNut"
+date:   2015-09-02 21:43:39
+categories: Story
+tags: [news]
+---
+
+After many feature requests, TextNut 2.2 allows to manage external folders directly in document tree.  Clicking the right bottom "plus" icon, you can choose "Link External folder" in popup menu

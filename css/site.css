@@ -11,7 +11,6 @@ body {
 .appstore{
 width: 232px;
 height: 56px;
-background: url(../img/mac_store_us.svg);
 background-size: 232px 56px;
 display: inline-block;
 text-indent: -9999px;
