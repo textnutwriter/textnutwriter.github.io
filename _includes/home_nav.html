@@ -42,7 +42,7 @@
                 {% for pg in pages %}          
                   {% if pg.menu == 'main' %}
                     <li{% if pg.url == page.url %} class="active"{% endif %}>
-                       <a class="page-link" href="{{ pg.url | prepend: site.baseurl }}">{{ pg.title }}</a>
+                       <a class="page-link" href="{{ pg.url | prepend: site.baseurl }}">{{ pg.menuTitle }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}

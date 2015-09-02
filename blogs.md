@@ -1,6 +1,7 @@
 ---
 layout: page
 title: TextNut Blogs
+menuTitle: Blogs
 permalink: /blogs/
 menu: main
 weight: 10
