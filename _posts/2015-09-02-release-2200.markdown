@@ -6,4 +6,5 @@ categories: Story
 tags: [news]
 ---
 
-After many feature requests, TextNut 2.2 allows to manage external folders directly in document tree.  Clicking the right bottom "plus" icon, you can choose "Link External folder" in popup menu. 
+After many feature requests, TextNut 2.2 allows to manage external folders directly in document tree.  Clicking the right bottom "plus" icon, you can choose "Link External folder" in popup menu then select targeting folder. The linked folder automatically synchronises any changes outside TextNut. In page tree list, it only displays the markdown/text format files. 
+![](</img/Screen Shot 2015-09-02 at 4.36.55 pm.png>)

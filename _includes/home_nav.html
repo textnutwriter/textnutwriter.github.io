@@ -37,7 +37,7 @@
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
-                {% comment %}http://stackoverflow.com/questions/25452429/excluding-page-from-jekyll-navigation-bar{% endcomment %}
+                {% comment %}http://stackoverflow.com/questions/25452429/excluding-page-from-jekyll-navigation-bar
                 {% assign pages = site.pages | sort: 'weight' %} 
                 {% for pg in pages %}          
                   {% if pg.menu == 'main' %}
@@ -46,7 +46,7 @@
                     </li>
                   {% endif %}
                 {% endfor %}
-                
+                {% endcomment %}
             </ul>
         </div>
     <!-- /.navbar-collapse -->
