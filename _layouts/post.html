@@ -16,7 +16,7 @@ layout: default
 	<div class="col-md-2">
 		{% assign post = page %}
 		{% if post.tags.size > 0 %}
-		    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+		    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}Tag</i>{% else %}Tags</i>{% endif %}: {% endcapture %}
 		    {% for post_tag in post.tags %}
 		        {% for data_tag in site.data.tags %}
 		            {% if data_tag.slug == post_tag %}
@@ -33,7 +33,8 @@ layout: default
 		{% endif %}
 
 		<p id="post-meta">{{ tags_content }}</p>
-
+		
+		{% comment %}
 		<div>
 			{% for category in site.categories %}
 			    <a href="/{{ category | first | slugize }}/">
@@ -41,6 +42,7 @@ layout: default
 			    </a>
 			{% endfor %}
 		</div>
+		{% endcomment %}
 	</div>
 </div>
 </div>
