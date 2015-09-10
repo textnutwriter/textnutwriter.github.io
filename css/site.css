@@ -15,7 +15,9 @@ background-size: 232px 56px;
 display: inline-block;
 text-indent: -9999px;
 margin: 0 10px;
-
+}
+.appstorelink{
+    color: #fff;
 }
 header.index {
       text-align: center;
