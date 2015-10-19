@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy
+title: Privacy
 permalink: /privacy/
 menu: footer
 weight: 20

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Terms of Use
+title: Terms
 permalink: /terms/
 menu: footer
 weight: 30
