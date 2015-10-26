@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "Tip 101 section 2"
+title:  "TextNut Tip 101 section 2"
 date:   2015-10-25 20:00:00
 categories: Blogs
 tags: [tips]
+---
+
+**Others Tips**: [TextNut tips section 1]({{site_url}}/blogs/2015/10/23/textnut-tip-101-section-1.html)
+
 ---
 
 ### Tip 11/101
@@ -37,7 +41,5 @@ The library can be exported into one file, either in Markdown, PDF, RTF or HTML 
 *To be continued...*
 
 
-
-**Others Tips**
-
-[Tips section 1]({{site_url}}/blogs/2015/10/23/tip-101-section-1.html)
+----
+**Others Tips**: [TextNut tips section 1]({{site_url}}/blogs/2015/10/23/textnut-tip-101-section-1.html)

@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "Tip 101 section 1"
+title:  "TextNut Tip 101 section 1"
 date:   2015-10-22 20:00:00
 categories: Blogs
 tags: [tips]
 ---
+
+**Others Tips**: [TextNut tips section 2]({{site_url}}/blogs/2015/10/26/textnut-tip-101-section-2.html)
+
+----
 
 ### Tip 1/101
 Task can have sub-tasks. It is just like a list, just by `TAB` to increase level of task or `SHIFT-TAB` to decrease. On a empty task item, typing `ENTER`, it returns normal paragraph if it is first level of task, otherwise, it will decrease one level. 
@@ -58,7 +62,5 @@ The text can be copied into HTML, by shortcut `ALT-CMD-C`. In normal paste,  ric
 Library is self-managed container for your documents. The document can contains images. In next major version, Library will support iCloud synchronisation. `Linked External Folder` is any folders in your MAC, most scenario is using this feature to manage files in your *Dropbox*. 
 
 
-
-**Others Tips**
-
-[Tips section 2]({{site_url}}/blogs/2015/10/26/tip-101-section-2.html)
+----
+**Others Tips**: [TextNut tips section 2]({{site_url}}/blogs/2015/10/26/textnut-tip-101-section-2.html)
