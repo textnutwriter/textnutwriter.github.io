@@ -11,28 +11,30 @@ tags: [tips]
 ---
 
 ### Tip 11/101
-Except changing font size in General Properties, you can change font display size from menu View -> Zoom in/Zoom out.  Its shortcut is `CMD`-`+` and `CMD`-`-`. 
+Except changing font size in General Properties, the text can be zoomed in/out from application menu View -> Zoom in/Zoom out.  Its shortcut is `CMD`-`+` and `CMD`-`-`. 
 
 ![](<{{site_url}}/img/tips/tip11.gif>)
 
 
 ### Tip 12/101
-Marker `+` creates tags. You can use `comma` to separate tags. In rich mode, when typing `comma` in a tag, it will automatically create a new tag. Typing `ENTER` will ending the tag input. 
+Marker `+` creates tags. You can use `comma` to separate tags. In rich mode, when typing `comma` in a tag, it automatically creates a new tag. Typing `ENTER` is ending the tag input. 
 
 ![](<{{site_url}}/img/tips/tip12.gif>)
 
 
 ### Tip 13/101
-Clicking **Tags** in library tree will list all used tags, it is easy way to locate documents. `Tag` also used as WordPress tag when you publish blogs.
+Clicking **Tags** in library tree will list tags in all documents. It is easy way to sort out the documents. `Tag` is also used as WordPress tag when you publish blogs.
 
 ### Tip 14/101
 The library title in document list is clickable. There are switched 3 states: Title only, Title with shorthand parent folders, Title with full path parent folders.
 
+![](<{{site_url}}/img/tips/tip14.gif>)
+
 ### Tip 15/101
-All documents are versioning. You can browse and restore history version from Menu File -> Browse All Versions. 
+All documents are versioning. Browsing the history version from application menu File -> Browse All Versions. 
 
 ### Tip 16/101
-After searching, current searching keywords can be saved as a *Filter* which can be open in one click. 
+At searching result, the searching keywords can be saved as a *Filter*.
 
 ### Tip 17/101
 The library can be exported into one file, either in Markdown, PDF, RTF or HTML format. 
