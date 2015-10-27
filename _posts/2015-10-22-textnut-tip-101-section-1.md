@@ -11,7 +11,7 @@ tags: [tips]
 ----
 
 ### Tip 1/101
-Task can have sub-tasks. It is just like a list, just by `TAB` to increase level of task or `SHIFT-TAB` to decrease. In an empty task item, typing `ENTER`, it is back to normal paragraph if it is already at first level of task, otherwise, it goes one level up. 
+Task can have sub-tasks. It is just like a list, using `TAB` to increase level of task or `SHIFT-TAB` to decrease. In an empty task item, typing `ENTER`, it is back to normal paragraph if it is already at first level of task, otherwise, it goes one level up. 
 
 ![](<{{site_url}}/img/tips/tip1.gif>)
 
