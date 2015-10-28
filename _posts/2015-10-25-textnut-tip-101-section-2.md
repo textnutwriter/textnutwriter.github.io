@@ -17,7 +17,7 @@ Except changing font size in General Properties, the text can be zoomed in/out f
 
 
 ### Tip 12/101
-Marker `+` creates tags. You can use `comma` to separate tags. In rich mode, when typing `comma` in a tag, it automatically creates a new tag. Typing `ENTER` is ending the tag input. 
+Marker `+` creates tags. `Comma`  is used to to separate tags. In rich mode, when typing `comma` in a tag, it automatically creates a new tag. Typing `ENTER` will end the tag input. 
 
 ![](<{{site_url}}/img/tips/tip12.gif>)
 
@@ -26,7 +26,7 @@ Marker `+` creates tags. You can use `comma` to separate tags. In rich mode, whe
 Clicking **Tags** in library tree will list tags in all documents. It is easy way to sort out the documents. `Tag` is also used as WordPress tag when you publish blogs.
 
 ### Tip 14/101
-The library title in document list is clickable. There are switched 3 states: Title only, Title with shorthand parent folders, Title with full path parent folders.
+The library title in document list is clickable. There are 3 states: Title only, Title with shorthand parent folders, Title with full path parent folders.
 
 ![](<{{site_url}}/img/tips/tip14.gif>)
 
@@ -34,10 +34,10 @@ The library title in document list is clickable. There are switched 3 states: Ti
 All documents are versioning. Browsing the history version from application menu File -> Browse All Versions. 
 
 ### Tip 16/101
-At searching result, the searching keywords can be saved as a *Filter*.
+At searching result, the searching keywords can be saved as a *Filter* for later use.
 
 ### Tip 17/101
-The library can be exported into one file, either in Markdown, PDF, RTF or HTML format. 
+The library (or a sub-library) can be exported into one file, either in Markdown, PDF, RTF or HTML format. 
 
 
 *To be continued...*

@@ -11,35 +11,35 @@ tags: [tips]
 ----
 
 ### Tip 1/101
-Task can have sub-tasks. It is just like a list, using `TAB` to increase level of task or `SHIFT-TAB` to decrease. In an empty task item, typing `ENTER`, it is back to normal paragraph if it is already at first level of task, otherwise, it goes one level up. 
+Task can have sub-tasks. It is just like a list, using `TAB` to increase level of task or `SHIFT-TAB` to decrease. In an empty task item, typing `ENTER`, it is back to normal paragraph if it is already at root level, otherwise, one level up. 
 
 ![](<{{site_url}}/img/tips/tip1.gif>)
 
 
 ### Tip 2/101
-It has a popover if mouse is hovering the small icon beside document outline title. It includes the document outline (headings 1...6) and tags. These are clickable to relocate the document. This can be used to quickly locate the document even it is not open.
+It shows a popover when mouse is hovering the small icon beside document outline title. It includes the document outline (headings 1...6) and tags. They are clickable and scroll the document to the anchor. This can be used to quickly locate the document even it is not open.
 
 ![](<{{site_url}}/img/tips/tip2.gif>)
 
 ### Tip 3/101
-That popover can rename the file if current document list is `linked external folder` from your MAC. 
+That popover can rename the file if current document is *linked external folder* from your MAC. 
 
 ![](<{{site_url}}/img/tips/tip3.gif>)
 
 ### Tip 4/101
-There are many ways to format the text. The easiest way is selecting the text you want to formatting, then click the popover menu on that action button. 
+There are many ways to format the text. The easiest way is selecting the text, then click the popover menu on that action button. 
 
 ![](<{{site_url}}/img/tips/tip4.gif>)
 
 
 ### Tip 5/101
-To format text, after selecting text, just typing `*`*,* `**` or `~` etc. The text will be formatted to emphasis, strong or cross etc.
+To format text, after selecting text, just typing `*`, `**` or `~` etc. The text will be formatted to emphasis, strong or cross etc.
 
 ![](<{{site_url}}/img/tips/tip5.gif>)
 
 
 ### Tip 6/101
-`ESC` is helpful if you want to resume to normal typing style when current style is bold, strong, or cross etc. At typing `ESC`, it has a small popover menu, typing `ENTER`, then your current writing text will resume to normal font without any styling.
+`ESC` is helpful if you want to resume to normal typing style when current style is bold, strong, or cross etc. Typing `ESC`, it shows a small popover menu (only if current typing has styling), then `ENTER`, the current typing will resume to normal font without any styling.
 
 ![](<{{site_url}}/img/tips/tip6.gif>)
 
@@ -56,10 +56,10 @@ In rich mode, put `**` before a word, then move caret to the end of the word and
 
 
 ### Tip 9/101
-The text can be copied into HTML, by shortcut `ALT-CMD-C`. In normal paste, styling text will parsed, any markdown syntax supported text will be converted to markdown text. So if you paste **bold** and *emphasis* into rich editor, it remains formats, if paste into markdown mode, it will be parsed to markdown text. Using shortcut `ALT-CMD-V` to avoid this conversion.
+The text can be copied into HTML by shortcut `ALT-CMD-C`. When pasting, styling text will be parsed, any markdown syntax supported format will be converted to markdown. So if you paste **bold** and *emphasis* into rich editor, it remains formats, if paste at markdown mode, it will be parsed to markdown text. Using shortcut `ALT-CMD-V` to always paste as plain text.
 
 ### Tip 10/101
-Library is self-managed container for your documents. The document can contains images. In next major version, Library will support iCloud synchronisation. `Linked External Folder` is any folders in your MAC, most scenario is using this feature to manage files in your *Dropbox*. 
+Library is self-managed container for your documents. The document can contains images. In future release, Library will support iCloud synchronisation. *Linked External Folder* is any folders in your MAC, the possible scenario is using this feature to manage files in your *Dropbox*. 
 
 
 ----
