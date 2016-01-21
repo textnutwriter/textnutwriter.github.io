@@ -13,4 +13,7 @@ twitter_username: textnutwriter
 timezone: "Australia/Sydney"
 # Build settings
 markdown: kramdown
-copyright: Copyright © Edgenius 2015
+copyright: Copyright © Edgenius 2016
+
+osx_app_store_url: "https://itunes.apple.com/us/app/textnut/id933104554?ls=1&mt=12"
+ios_app_store_url: "https://itunes.apple.com/us/app/textnut/??"

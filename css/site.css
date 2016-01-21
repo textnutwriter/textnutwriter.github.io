@@ -307,12 +307,15 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
-
+header top-header{
+    background-color: #5E3F25;
+}
 header .intro-text {
-    padding-top: 100px;
     padding-bottom: 50px;
 }
-
+header .header-icon{
+    margin-top: 120px;
+}
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -334,12 +337,15 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+@media(max-width:1200px) {
+    header .mac-purchase {
+        margin-top:20px;
+    }    
+}
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 450px;
         padding-bottom: 50px;
     }
-
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;

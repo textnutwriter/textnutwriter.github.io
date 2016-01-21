@@ -6,36 +6,44 @@
   <body id="page-top" class="index">
     <img src="img/header-bg.png" style="display:none">
     <img src="img/mac_store_us.svg" style="display:none">
-    <header class="index" style="background-image: url(img/header-bg.png);">
+    <header class="index top-header">
       <nav class="navbar navbar-default navbar-fixed-top site-nav">
         {% include home_nav.html %}
       </nav>
       <div class="container">
-        <div class="intro-text">
-            <div class="intro-lead-in">Just concentrate on your words</div>
-            <div class="intro-subtitle">100% compatible with CommonMark</div>
-            
-             <div class="row">
-              
-                <div class="col-lg-offset-3 col-lg-3  col-md-offset-3 col-md-3 text-center">
-                    <a href="http://download.textnutwriter.com/TextNut-Trial.app.zip" class="page-scroll btn btn-xl-down">Get the FREE Trial</a>
-                    <div class="compatible">Version 2.24 requires OSX 10.10+</div>
+          <div class="header-icon"><img src="img/icon-bk.png"></div>
 
+          <div class="intro-text">
+             <div class="row">
+              <div class="col-lg-6 col-md-6 text-center">
+                    <div style="background: url(img/ios_store_us.svg);background-size: 232px 56px;width: 232px;height: 56px;" class="center-block">
+                      <a href="{{ site.ios_app_store_url }}" class="appstore"></a>
+                    </div>
+                    <div class="getlink"><a href="{{ site.ios_app_store_url }}" class="appstorelink">Free Get for iPhone and iPad</a></div>
+                    <div><span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="In-App Purchases US$3.99">In-App Purchase</span></div>
                 </div>
-                <div class="col-lg-3 col-md-3 text-center" style="background: url(img/mac_store_us.svg);background-size: 232px 56px;width: 232px;height: 56px;">
-                    <a href="https://itunes.apple.com/us/app/textnut/id933104554?ls=1&mt=12" class="appstore"></a>
-                    <div class="compatible"><a href="https://itunes.apple.com/us/app/textnut/id933104554?ls=1&mt=12" class="appstorelink">US$24.99</a></div>
+
+                <div class="col-lg-6 col-md-6 text-center mac-purchase">
+                    <div style="background: url(img/mac_store_us.svg);background-size: 232px 56px;width: 232px;height: 56px;" class="center-block">
+                      <a href="{{ site.osx_app_store_url }}" class="appstore"></a>
+                    </div>
+                    <div class="getlink"><a href="{{ site.osx_app_store_url }}" class="appstorelink">Free Get for Mac</a></div>
+                    <div><span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="In-App Purchases US$24.99">In-App Purchase</span></div>
                 </div>
               </div>
               <div class="row"><br/></div>
-        </div>
+          </div>
       </div>
     </header>
 
     {{ content }}
 
     {% include footer.html %}
-
+    <script type="text/javascript">
+     $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
   </body>
 
 </html>
