@@ -310,6 +310,10 @@ fieldset[disabled] .btn-xl.active {
 header top-header{
     background-color: #5E3F25;
 }
+header  .label-default{
+    background-color: #592A10;    
+}
+
 header .intro-text {
     padding-bottom: 50px;
 }
