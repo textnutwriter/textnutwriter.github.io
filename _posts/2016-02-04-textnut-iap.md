@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TextNut In App Purchase"
+title:  "TextNut In App Purchase for OS X and iOS"
 date:   2016-02-04 00:00:00
 categories: Blogs
 tags: [faq]
