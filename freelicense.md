@@ -6,7 +6,7 @@ menu: footer
 weight: 8
 ---
 
-## Ooops ###
+## Ooops!!! ###
 A bug in 2.32 causes free license request not working in TextNut app.  You can wait for 2.33 or just send email directly to hello@textnutwriter.com with the information as below described, we will be happy to provide you with a free license. 
 
 ----
