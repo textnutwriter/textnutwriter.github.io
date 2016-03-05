@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TextNut Free License for Blogger or Jouralist"
-date:   2016-02-03 00:00:00
+date:   2016-03-05 00:00:00
 categories: Blogs
 tags: [news]
 ---
