@@ -1,182 +1,43 @@
 ---
 layout: home
 ---
+  <div class="container">
+         <div class="intro-text">
+             <div class="row">
+               
+                <div class="col-lg-4 col-md-4 text-center">
+                    <h3>TextNut for iOS</h3>
+                    <div class="app-icon"> <img src="img/app-icons/ios-icon-128x128.png"></div>
+                    <div style="background: url(img/ios_store_us.svg);background-size: 232px 56px;width: 232px;height: 56px;" class="center-block">
+                      <a href="{{ site.ios_app_store_url }}" class="appstore"></a>
+                    </div>
+                    <div class="getlink"><a href="{{ site.ios_app_store_url }}" class="appstorelink">Free Get for iPhone and iPad</a></div>
+                    <div><span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="In-App Purchases only US$3.99">In-App Purchase</span></div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 text-center mac-purchase">
+                    <h3>TextNut for OS X</h3>
+                    <div class="app-icon"> <img src="img/app-icons/textnut-icon-128x128.png"></div>
+                    <div style="background: url(img/mac_store_us.svg);background-size: 232px 56px;width: 232px;height: 56px;" class="center-block">
+                      <a href="{{ site.osx_app_store_url }}" class="appstore"></a>
+                    </div>
+                    <div class="getlink"><a href="{{ site.osx_app_store_url }}" class="appstorelink">Free Get for Mac</a></div>
+                    <div><span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="In-App Purchases US$24.99">In-App Purchase</span></div>
+                </div>
+
+                 <div class="col-lg-4 col-md-4 text-center">
+                    <h3>TextNut SD for OS X</h3>
+                    <div class="app-icon"> <img src="img/app-icons/textnutsd-icon-128x128.png"></div>
+                    <div style="background: url(img/mac_store_us.svg);background-size: 232px 56px;width: 232px;height: 56px;" class="center-block">
+                      <a href="{{ site.sd_osx_app_store_url }}" class="appstore"></a>
+                    </div>
+                    <div class="getlink"><a href="{{ site.sd_osx_free_trial_url }}" class="appstorelink">Free Trial Download</a></div>
+                    <div><span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Purchases only US$9.99">App Store $9.99</span></div>
+                </div>
+
+              </div>
+            <div class="row"><br/></div>
+          </div>
+      </div>
 
     <p></p>
-<!--     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <iframe src="http://api.dmcloud.net/player/embed/5423e36806361d1e0252f656/544cd5d394739910a2110021?auth=1729683091-0-iwmghvj9-adc6f32985db9efc7f5604caf818421e&force_asset_name=mp4_h264_aac_hd" width="853" height="552" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
- -->    <!-- Services Section -->
-    <section id="screenshot" class="screenshot">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Features</h2>
-                </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                    <h3 class="feature-title">Switch between Markdown and rich text editing on-the-fly</h3>
-                    <div class="screenshot-text">
-                      TextNut provides an unique rich editing mode in which the Markdown marker characters are just <code>triggers</code>. You fully concentrate on the content without the interference of the marker characters.
-                        You can switch between rich text and Markdown at any time without losing your text formatting.
-                    </div>
-               </div>
-               <div class="col-md-8">
-                <a href="img/intro/f1.png" data-lightbox="screenshot"><img src="img/intro/s1.png" class="img-responsive"></a>
-               </div>
-            </div>
-             <div class="row">
-               <div class="col-md-4">
-                    <h3 class="feature-title">WYSIWYG Markdown editing</h3>
-                    <div class="screenshot-text">
-                        TextNut combines the power of Markdown with the simplicity of rich text editing.  It is 100% compatible with <a href="http://commonmark.org" target="_blank">CommonMark specification</a>.
-                    </div>
-               </div>
-                 <div class="col-md-8">
-                    <a href="img/intro/f2.png" data-lightbox="screenshot"><img src="img/intro/s2.png" class="img-responsive"></a>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                    <h3 class="feature-title">Language Syntax Highlighting</h3>
-                    <div class="screenshot-text">
-                        TextNut supports most major language syntax highlighting. Just enclosing source code into fenced or indent code block, either declaring the language name, i.e. <code>Python</code>, <code>Java</code>, <code>XML</code>  etc, or let TextNut automatically detect the language type.
-                    </div>
-               </div>
-               <div class="col-md-8">
-                <a href="img/intro/f3.png" data-lightbox="screenshot"><img src="img/intro/s3.png" class="img-responsive"></a>
-               </div>
-            </div>
-             <div class="row">
-               <div class="col-md-4">
-                  <h3 class="feature-title">Easy document management</h3>
-                    <div class="screenshot-text">
-                        Create <code>Library</code> to hold documents or <code>Link Existed Folder</code> in your Mac. Drag and drop document between libraries. Add tags to organise your documents. All your documents are automatically saved as you work.
-                    </div>
-               </div>
-                <div class="col-md-8">
-                    <a href="img/intro/f4.png" data-lightbox="screenshot"><img src="img/intro/s4.png" class="img-responsive"></a>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                    <h3 class="feature-title">Sync by iCloud or Dropbox</h3>
-                    <div class="screenshot-text">
-                        The documents managed by TextNut can be synchronised by iCloud or Dropbox across Mac, iPhone or iPad.
-                    </div>
-               </div>
-               <div class="col-md-8">
-                <a href="img/intro/f0.png" data-lightbox="screenshot"><img src="img/intro/s0.png" class="img-responsive"></a>
-               </div>
-            </div>            
-            <div class="row">
-               <div class="col-md-4">
-                     <h3 class="feature-title">Themes</h3>
-                    <div class="screenshot-text">
-                        Six beautiful themes are provided by default. You can create your own themes easily. With the Zen mode, you can fully concentrate on your writing in a beautiful environment.
-                    </div>
-               </div>
-               <div class="col-md-8">
-                <a href="img/intro/f5.png" data-lightbox="screenshot"><img src="img/intro/s5.png" class="img-responsive"></a>
-               </div>
-            </div>
-             <div class="row">
-               <div class="col-md-4">
-                    <h3 class="feature-title">Export</h3>
-                    <div class="screenshot-text">
-                        You can preview or export the document in PDF, HTML, RTF or share via Email. Publishing to <code>Medium, Blogger or Wordpress</code> with images.
-                    </div>
-               </div>
-                 <div class="col-md-8">
-                    <a href="img/intro/f6.png" data-lightbox="screenshot"><img src="img/intro/s6.png" class="img-responsive"></a>
-               </div>
-            </div>
-             <div class="row">
-              <div class="col-md-4">
-                   <h3 class="feature-title">Zen Model</h3>
-                    <div class="screenshot-text">
-                        A beautiful distraction free frameless window let you fully concentrate.
-                    </div>
-               </div>
-               <div class="col-md-8">
-                    <a href="img/intro/f7.png" data-lightbox="screenshot"><img src="img/intro/s7.png" class="img-responsive"></a>
-               </div>
-            </div>
-             <div class="row">
-              <div class="col-md-4">
-                    <h3 class="feature-title">Advanced Markdown styles</h3>
-                    <div class="screenshot-text">
-                        Easily create multiple level lists or task and change list markers. By typing <code>{</code>, you also can add footnotes, images or tags.
-                    </div>
-               </div>
-                <div class="col-md-8">
-                    <a href="img/intro/f8.png" data-lightbox="screenshot"><img src="img/intro/s8.png" class="img-responsive"></a>
-               </div>
-            </div>
-             <div class="row">
-              <div class="col-md-4">
-                <h3 class="feature-title">Contextual help</h3>
-                <div class="screenshot-text">
-                TextNut features a help system that displays dynamic help tips when you need them. The help panel is clickable to apply formatting easily.
-                </div>
-              </div>
-              <div class="col-md-8">
-                    <a href="img/intro/f9.png" data-lightbox="screenshot"><img src="img/intro/s9.png" class="img-responsive"></a>
-               </div>
-            </div>
-        </div>
-    </section>
-    <section id="features" class="bg-light-gray features">
-        <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Tutorials</h2>
-              </div>
-          </div>
-          <div class="row videos-row">
-            <div class="col-lg-6 text-center">
-              <iframe frameborder="0" width="560" height="338" src="//www.dailymotion.com/embed/video/x2keo88?related=0" allowfullscreen></iframe>
-            </div>
-            <div class="col-lg-6 text-center">
-              <iframe frameborder="0" width="560" height="338" src="//www.dailymotion.com/embed/video/x2keo89?related=0" allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <div class="row videos-row">
-            <div class="col-lg-6 text-center">
-              <iframe frameborder="0" width="560" height="338" src="//www.dailymotion.com/embed/video/x2keqn6?related=0" allowfullscreen></iframe>
-            </div>
-            <div class="col-lg-6 text-center">
-              <iframe frameborder="0" width="560" height="338" src="//www.dailymotion.com/embed/video/x2keszd?related=0" allowfullscreen></iframe>
-            </div>
-          </div>
-
-
-          <div class="row videos-row">
-            <div class="col-lg-6 text-center">
-              <iframe frameborder="0" width="560" height="338" src="//www.dailymotion.com/embed/video/x2kewns?related=0" allowfullscreen></iframe>
-            </div>
-            <div class="col-lg-6 text-center">
-              <iframe frameborder="0" width="560" height="338" src="//www.dailymotion.com/embed/video/x2kez7r?related=0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-  </section>
-
-  
-
-<img src="img/intro/f0.png" style="display:none">
-<img src="img/intro/f1.png" style="display:none">
-<img src="img/intro/f2.png" style="display:none">
-<img src="img/intro/f3.png" style="display:none">
-<img src="img/intro/f4.png" style="display:none">
-<img src="img/intro/f5.png" style="display:none">
-<img src="img/intro/f6.png" style="display:none">
-<img src="img/intro/f7.png" style="display:none">
-<img src="img/intro/f8.png" style="display:none">
-<img src="img/intro/f9.png" style="display:none">

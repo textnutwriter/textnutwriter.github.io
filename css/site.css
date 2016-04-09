@@ -16,9 +16,11 @@ display: inline-block;
 text-indent: -9999px;
 margin: 0 10px;
 }
+
 a.appstorelink{
-    color: #fff;
+    color: #222;
 }
+
 header.index {
       text-align: center;
       color: #fff;
@@ -307,6 +309,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+
 header top-header{
     background-color: #5E3F25;
 }
@@ -314,26 +317,30 @@ header  .label-default{
     background-color: #592A10;    
 }
 
-header .intro-text {
+.intro-text .app-icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-text {
     padding-bottom: 50px;
 }
-header .header-icon{
+.header-icon{
     margin-top: 120px;
 }
-header .intro-text .intro-lead-in {
+.intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
 }
-header .intro-text .intro-subtitle{
+.intro-text .intro-subtitle{
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-style: italic;
 }
-header .intro-text .intro-heading {
+.intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
@@ -347,10 +354,10 @@ header .intro-text .intro-heading {
     }    
 }
 @media(min-width:768px) {
-    header .intro-text {
+    .intro-text {
         padding-bottom: 50px;
     }
-    header .intro-text .intro-lead-in {
+    .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
@@ -358,7 +365,7 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    .intro-text .intro-heading {
         margin-bottom: 50px;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;

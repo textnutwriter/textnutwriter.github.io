@@ -26,15 +26,15 @@
                     <a class="page-scroll" href="#page-top">Home</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#screenshot">Screenshots</a>
+                    <a class="page-scroll" href="/page/screenshot/">Screenshots</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#features">Tutorials</a>
+                    <a class="page-scroll" href="/page/feature/">Tutorials</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="http://community.textnutwriter.com">Community</a>
                 </li>
-                {% comment %}http://stackoverflow.com/questions/25452429/excluding-page-from-jekyll-navigation-bar{% endcomment %}
+                {% comment %}http://stackoverflow.com/questions/25452429/excluding-page-from-jekyll-navigation-bar
                 {% assign pages = site.pages | sort: 'weight' %} 
                 {% for pg in pages %}          
                   {% if pg.menu == 'main' %}
@@ -43,6 +43,7 @@
                     </li>
                   {% endif %}
                 {% endfor %}
+                {% endcomment %}
                 
             </ul>
         </div>
