@@ -41,7 +41,18 @@ header.index {
 .screenshot .row{
     margin-top: 60px;
 }
+.screenshot .ssnav{
+    text-align: center;
+    font-size: 18px;
+}
+.screenshot .ssnav a{
+    padding: 5px 12px;
+    margin: 5px 12px;
+}
+.screenshot .ssnav a.sel{
+    background-color: #e2e2e2;
 
+}
 .features .videos-row{
     margin-bottom: 30px;
 }
